@@ -1,0 +1,173 @@
+.grid-container {
+  display: grid;
+  gap: 10px; /* Space between boxes */
+  grid-template-columns: repeat(5, 1fr); /* 5 boxes per row */
+  width: 100%;
+}
+
+.grid-item {
+  /* background-color: #4caf50; Green */
+  color: white;
+  padding: 10px 3px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* Adjust the number of boxes per line based on screen size */
+
+/* 4 boxes per line */
+@media (max-width: 1200px) {
+  .grid-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* 3 boxes per line */
+@media (max-width: 900px) {
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* 2 boxes per line */
+@media (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* 1 box per line */
+@media (max-width: 400px) {
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* here  */
+
+.top-msg {
+  background-color: rgb(169, 210, 248);
+  display: flex;
+  justify-content: space-between;
+  padding: 3px 3px;
+  color: black;
+  border-radius: 5px;
+  margin: 5px 0px;
+}
+
+.top-msg button {
+  background: blue;
+  color: white;
+  border-radius: 50px;
+  padding: 0px 5px;
+  font-size: 0.8rem;
+}
+
+.middle-msg {
+  background-color: white;
+  color: black;
+}
+
+.middle-first {
+  text-align: start;
+  padding: 0px 5px;
+}
+
+.middle-first-btn {
+  background: #aa49a0;
+  border-radius: 5px;
+  padding: 0px 5px;
+  font-size: 0.7rem;
+  color: white;
+}
+
+.middle-second {
+  /* background: yellow; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px 5px;
+}
+
+.ms-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ms-third {
+  /* background: yellow; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 7px 10px;
+}
+
+.third-data {
+  font-size: 0.7rem;
+}
+
+.third-data span {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.bottom-msg {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  color: black;
+  border-top: 2px solid black;
+  padding: 5px 3px;
+}
+
+.bm-left {
+  display: flex;
+}
+
+
+.tableMessages{
+  margin: 25px 0px;
+}
+
+
+/* For Scrollbar  */
+
+/* For WebKit browsers (Chrome, Safari, Edge) */
+.msg-data {
+  height: 75%;
+  overflow: hidden; /* Hide scrollbar initially */
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: blue #f1f1f1; /* Firefox */
+}
+
+/* Show scrollbar on hover */
+.msg-data:hover {
+  overflow-y: auto; /* Show scrollbar on hover */
+}
+
+/* WebKit-based browsers */
+.msg-data::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+.msg-data::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color of the track */
+  border-radius: 4px; /* Rounded corners for the track */
+}
+
+.msg-data::-webkit-scrollbar-thumb {
+  background: green; /* Color of the thumb */
+  border-radius: 4px; /* Rounded corners for the thumb */
+}
+
+.msg-data::-webkit-scrollbar-thumb:hover {
+  background: darkgreen; /* Slightly darker color when hovering */
+}
+
+
+.table_msg{
+  padding: 0px 10px;
+}

@@ -1,0 +1,45 @@
+.grid-container {
+    display: grid;
+    gap: 10px; /* Space between boxes */
+    grid-template-columns: repeat(5, 1fr); /* 5 boxes per row */
+    width: 100%;
+  }
+  
+  .grid-item {
+    background-color: #4caf50; /* Green */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  /* Adjust the number of boxes per line based on screen size */
+  
+  /* 4 boxes per line */
+  @media (max-width: 1200px) {
+    .grid-container {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
+  /* 3 boxes per line */
+  @media (max-width: 900px) {
+    .grid-container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  /* 2 boxes per line */
+  @media (max-width: 600px) {
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  /* 1 box per line */
+  @media (max-width: 400px) {
+    .grid-container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  

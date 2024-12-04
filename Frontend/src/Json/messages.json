@@ -1,0 +1,529 @@
+[
+  {
+    "status": "New",
+    "crm": "j&s CRM",
+    "contact": {
+      "name": "Jay",
+      "phone": "9635874125"
+    },
+    "details": {
+      "cd": "10-01-2023",
+      "by": "TruelineSolution India",
+      "to": "Navisha Patoliya",
+      "nfd": ""
+    },
+    "icons": {
+      "delete": "red",
+      "link": "greenyellow",
+      "trendUp": "black",
+      "email": "default",
+      "message": "red",
+      "whatsapp": "green",
+      "building": "orange",
+      "userPlus": "blue",
+      "send": "gray"
+    }
+  },
+  {
+    "status": "Processing",
+    "crm": "BWMS",
+    "contact": {
+      "name": "Sailesh",
+      "phone": "9904025895"
+    },
+    "details": {
+      "cd": "10-01-2023",
+      "by": "TruelineSolution India",
+      "to": "Roshni Thummer",
+      "nfd": "11-01-2023"
+    },
+    "icons": {
+      "delete": "blue",
+      "link": "purple",
+      "trendUp": "red",
+      "email": "gray",
+      "message": "green",
+      "whatsapp": "blue",
+      "building": "yellow",
+      "userPlus": "orange",
+      "send": "black"
+    }
+  },
+  {
+    "status": "Close-by",
+    "crm": "Digital Marketing",
+    "contact": {
+      "name": "Owner - Deepak Sheta, Surat",
+      "phone": "9856375895"
+    },
+    "details": {
+      "cd": "9-01-2023",
+      "by": "TruelineSolution India",
+      "to": "Anil Vaghani",
+      "nfd": "10-01-2023"
+    },
+    "icons": {
+      "delete": "blue",
+      "link": "purple",
+      "trendUp": "red",
+      "email": "gray",
+      "message": "green",
+      "whatsapp": "blue",
+      "building": "yellow",
+      "userPlus": "orange",
+      "send": "black"
+    }
+  },
+  {
+    "status": "Confirm",
+    "crm": "Graphics Design",
+    "contact": {
+      "name": "Rudraksh Advaryu",
+      "phone": "8759685245"
+    },
+    "details": {
+      "cd": "10-01-2023",
+      "by": "Navisha Patoliya",
+      "to": "Navisha Patoliya",
+      "nfd": "10-01-2023"
+    },
+    "icons": {
+      "delete": "blue",
+      "link": "purple",
+      "trendUp": "red",
+      "email": "gray",
+      "message": "green",
+      "whatsapp": "blue",
+      "building": "yellow",
+      "userPlus": "orange",
+      "send": "black"
+    }
+  },
+  {
+    "status": "Cancle",
+    "crm": "Diamond ERP",
+    "contact": {
+      "name": "Luv Patel",
+      "phone": "6352417458"
+    },
+    "details": {
+      "cd": "2-01-2023",
+      "by": "Prashant Balar",
+      "to": "anil vaghani",
+      "nfd": "10-01-2023"
+    },
+    "icons": {
+      "delete": "blue",
+      "link": "purple",
+      "trendUp": "red",
+      "email": "gray",
+      "message": "green",
+      "whatsapp": "blue",
+      "building": "yellow",
+      "userPlus": "orange",
+      "send": "black"
+    }
+  },
+  {
+    "status": "Processing",
+    "crm": "SmartCRM",
+    "contact": {
+      "name": "Bob Brown",
+      "phone": "9786543210"
+    },
+    "details": {
+      "cd": "14-01-2023",
+      "by": "Tech Innovations",
+      "to": "Sara Williams",
+      "nfd": "16-01-2023"
+    },
+    "icons": {
+      "delete": "blue",
+      "link": "purple",
+      "trendUp": "red",
+      "email": "gray",
+      "message": "green",
+      "whatsapp": "blue",
+      "building": "yellow",
+      "userPlus": "orange",
+      "send": "black"
+    }
+  },
+  {
+    "status": "Close-by",
+    "crm": "Marketing Pro",
+    "contact": {
+      "name": "Charlie Davis",
+      "phone": "9123456789"
+    },
+    "details": {
+      "cd": "16-01-2023",
+      "by": "Global Solutions",
+      "to": "Ella Johnson",
+      "nfd": "18-01-2023"
+    },
+    "icons": {
+      "delete": "blue",
+      "link": "purple",
+      "trendUp": "red",
+      "email": "gray",
+      "message": "green",
+      "whatsapp": "blue",
+      "building": "yellow",
+      "userPlus": "orange",
+      "send": "black"
+    }
+  },
+  {
+    "status": "Confirm",
+    "crm": "Design Masters",
+    "contact": {
+      "name": "David Martinez",
+      "phone": "8876543210"
+    },
+    "details": {
+      "cd": "18-01-2023",
+      "by": "Creative Agency",
+      "to": "Sophia Taylor",
+      "nfd": "20-01-2023"
+    },
+    "icons": {
+      "delete": "blue",
+      "link": "purple",
+      "trendUp": "red",
+      "email": "gray",
+      "message": "green",
+      "whatsapp": "blue",
+      "building": "yellow",
+      "userPlus": "orange",
+      "send": "black"
+    }
+  },
+  {
+    "status": "Cancle",
+    "crm": "ERP Solutions",
+    "contact": {
+      "name": "Eve Roberts",
+      "phone": "9654321870"
+    },
+    "details": {
+      "cd": "20-01-2023",
+      "by": "Tech Ventures",
+      "to": "John Doe",
+      "nfd": "22-01-2023"
+    },
+    "icons": {
+      "delete": "blue",
+      "link": "purple",
+      "trendUp": "red",
+      "email": "gray",
+      "message": "green",
+      "whatsapp": "blue",
+      "building": "yellow",
+      "userPlus": "orange",
+      "send": "black"
+    }
+  },
+  {
+    "status": "Processing",
+    "crm": "Sales CRM",
+    "contact": {
+      "name": "Grace Wilson",
+      "phone": "9109876543"
+    },
+    "details": {
+      "cd": "24-01-2023",
+      "by": "Innovative Tech",
+      "to": "Matthew Davis",
+      "nfd": "26-01-2023"
+    },
+    "icons": {
+      "delete": "blue",
+      "link": "purple",
+      "trendUp": "red",
+      "email": "gray",
+      "message": "green",
+      "whatsapp": "blue",
+      "building": "yellow",
+      "userPlus": "orange",
+      "send": "black"
+    }
+  },
+  
+  {
+    "status": "Confirm",
+    "crm": "Creative Labs",
+    "contact": {
+      "name": "Ivy Clark",
+      "phone": "9876543210"
+    },
+    "details": {
+      "cd": "28-01-2023",
+      "by": "Design Works",
+      "to": "Emily Johnson",
+      "nfd": "30-01-2023"
+    },
+    "icons": {
+      "delete": "blue",
+      "link": "purple",
+      "trendUp": "red",
+      "email": "gray",
+      "message": "green",
+      "whatsapp": "blue",
+      "building": "yellow",
+      "userPlus": "orange",
+      "send": "black"
+    }
+  },
+  {
+    "status": "Cancle",
+    "crm": "Tech Solutions",
+    "contact": {
+      "name": "Jack Smith",
+      "phone": "9765432109"
+    },
+    "details": {
+      "cd": "30-01-2023",
+      "by": "NextGen Solutions",
+      "to": "Rachel Adams",
+      "nfd": "01-02-2023"
+    },
+    "icons": {
+      "delete": "blue",
+      "link": "purple",
+      "trendUp": "red",
+      "email": "gray",
+      "message": "green",
+      "whatsapp": "blue",
+      "building": "yellow",
+      "userPlus": "orange",
+      "send": "black"
+    }
+  },
+  {
+    "status": "New",
+    "crm": "Finance Hub",
+    "contact": {
+      "name": "Karen Walker",
+      "phone": "9456781230"
+    },
+    "details": {
+      "cd": "01-02-2023",
+      "by": "Elite Services",
+      "to": "Kevin Lee",
+      "nfd": ""
+    },
+    "icons": {
+      "delete": "red",
+      "link": "greenyellow",
+      "trendUp": "black",
+      "email": "default",
+      "message": "red",
+      "whatsapp": "green",
+      "building": "orange",
+      "userPlus": "blue",
+      "send": "gray"
+    }
+  },
+  {
+    "status": "Processing",
+    "crm": "Digital Solutions",
+    "contact": {
+      "name": "Liam Scott",
+      "phone": "9786543210"
+    },
+    "details": {
+      "cd": "03-02-2023",
+      "by": "Tech Innovations",
+      "to": "Olivia Davis",
+      "nfd": "05-02-2023"
+    },
+    "icons": {
+      "delete": "blue",
+      "link": "purple",
+      "trendUp": "red",
+      "email": "gray",
+      "message": "green",
+      "whatsapp": "blue",
+      "building": "yellow",
+      "userPlus": "orange",
+      "send": "black"
+    }
+  },
+
+  {
+    "status": "Confirm",
+    "crm": "Ad Agency",
+    "contact": {
+      "name": "Noah Lewis",
+      "phone": "9908765432"
+    },
+    "details": {
+      "cd": "07-02-2023",
+      "by": "Marketing Experts",
+      "to": "Sophia Lewis",
+      "nfd": "09-02-2023"
+    },
+    "icons": {
+      "delete": "blue",
+      "link": "purple",
+      "trendUp": "red",
+      "email": "gray",
+      "message": "green",
+      "whatsapp": "blue",
+      "building": "yellow",
+      "userPlus": "orange",
+      "send": "black"
+    }
+  },
+  {
+    "status": "Cancle",
+    "crm": "CRM Solutions",
+    "contact": {
+      "name": "Emma Brown",
+      "phone": "9123456789"
+    },
+    "details": {
+      "cd": "09-02-2023",
+      "by": "Innovative Tech",
+      "to": "Lucas Green",
+      "nfd": "11-02-2023"
+    },
+    "icons": {
+      "delete": "blue",
+      "link": "purple",
+      "trendUp": "red",
+      "email": "gray",
+      "message": "green",
+      "whatsapp": "blue",
+      "building": "yellow",
+      "userPlus": "orange",
+      "send": "black"
+    }
+  },
+  {
+    "status": "New",
+    "crm": "E-commerce",
+    "contact": {
+      "name": "Olivia Johnson",
+      "phone": "9432109876"
+    },
+    "details": {
+      "cd": "11-02-2023",
+      "by": "Retail Experts",
+      "to": "Mason Smith",
+      "nfd": ""
+    },
+    "icons": {
+      "delete": "red",
+      "link": "greenyellow",
+      "trendUp": "black",
+      "email": "default",
+      "message": "red",
+      "whatsapp": "green",
+      "building": "orange",
+      "userPlus": "blue",
+      "send": "gray"
+    }
+  },
+  {
+    "status": "Processing",
+    "crm": "IT Solutions",
+    "contact": {
+      "name": "Ava Adams",
+      "phone": "9345678901"
+    },
+    "details": {
+      "cd": "13-02-2023",
+      "by": "Tech Pros",
+      "to": "Daniel White",
+      "nfd": "15-02-2023"
+    },
+    "icons": {
+      "delete": "blue",
+      "link": "purple",
+      "trendUp": "red",
+      "email": "gray",
+      "message": "green",
+      "whatsapp": "blue",
+      "building": "yellow",
+      "userPlus": "orange",
+      "send": "black"
+    }
+  },
+  {
+    "status": "Close-by",
+    "crm": "Consulting",
+    "contact": {
+      "name": "Ethan Scott",
+      "phone": "8765432109"
+    },
+    "details": {
+      "cd": "15-02-2023",
+      "by": "Elite Consulting",
+      "to": "Ella Davis",
+      "nfd": "17-02-2023"
+    },
+    "icons": {
+      "delete": "blue",
+      "link": "purple",
+      "trendUp": "red",
+      "email": "gray",
+      "message": "green",
+      "whatsapp": "blue",
+      "building": "yellow",
+      "userPlus": "orange",
+      "send": "black"
+    }
+  },
+  {
+    "status": "Confirm",
+    "crm": "Financial Services",
+    "contact": {
+      "name": "Mia Green",
+      "phone": "9898765432"
+    },
+    "details": {
+      "cd": "17-02-2023",
+      "by": "Finance Experts",
+      "to": "James Brown",
+      "nfd": "19-02-2023"
+    },
+    "icons": {
+      "delete": "blue",
+      "link": "purple",
+      "trendUp": "red",
+      "email": "gray",
+      "message": "green",
+      "whatsapp": "blue",
+      "building": "yellow",
+      "userPlus": "orange",
+      "send": "black"
+    }
+  },
+  {
+    "status": "Cancle",
+    "crm": "HR Solutions",
+    "contact": {
+      "name": "James Lee",
+      "phone": "9678901234"
+    },
+    "details": {
+      "cd": "19-02-2023",
+      "by": "Human Resources",
+      "to": "Isabella Davis",
+      "nfd": "21-02-2023"
+    },
+    "icons": {
+      "delete": "blue",
+      "link": "purple",
+      "trendUp": "red",
+      "email": "gray",
+      "message": "green",
+      "whatsapp": "blue",
+      "building": "yellow",
+      "userPlus": "orange",
+      "send": "black"
+    }
+  }
+]

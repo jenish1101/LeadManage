@@ -1,0 +1,36 @@
+#reminder_radio{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: gray;
+}
+
+#second_reminder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#second_reminder_first , #second_reminder_second{
+    width: 45%;
+}
+
+.second_reminder_input{
+    width: 100%;
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#rmdr_txt textarea{
+    resize: none;
+    width: 100%;
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#automation_rmdr h1{
+    font-weight: bold;
+    color: gray;
+}

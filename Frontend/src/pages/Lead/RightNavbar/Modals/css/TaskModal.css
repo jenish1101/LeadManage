@@ -1,0 +1,36 @@
+
+#t_subject input{
+    width: 100%;
+    padding: 7px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+
+#t_date{
+display: flex;
+justify-content: space-between;
+align-items: center;
+/* background-color: red; */
+}
+
+.tm_date{
+    width: 47%;
+    /* background: yellow; */
+}
+
+#start_date,#end_date{
+    width: 100%;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+#t_txt textarea{
+    resize: none;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 100px;
+}

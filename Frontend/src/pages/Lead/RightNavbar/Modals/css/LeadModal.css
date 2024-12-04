@@ -1,0 +1,143 @@
+#Lead_First{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Modal_Dropdown{
+    background: white;
+    border: 1px solid gray;
+    color: gray;
+    border-radius: 5px;
+    /* width: 50%; */
+    height: 40px;
+    width: 220px;
+    padding: 5px;
+}
+
+/* Date  */
+
+#Lead_second{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#Lead_Third{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#companyname{
+    background: white;
+    border: 1px solid gray;
+    color: gray;
+    border-radius: 5px;
+    /* width: 50%; */
+    height: 40px;
+    width: 220px;
+    padding: 10px;
+}
+
+#Lead_date{
+    border-radius: 5px;
+    width: 220px;
+    border: 1px solid gray;
+    padding: 7px;
+}
+
+.Lead_Four_Input{
+    background: white;
+    border: 1px solid gray;
+    padding: 7px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#Lead_Five{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#reference_div{
+    width: 220px;
+}
+
+#reference{
+    padding: 7px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 220px;
+}
+
+#Lead_six textarea{
+    resize: none;
+    width: 100%;
+    border: 1px solid gray;
+    padding: 5px;
+    height: 75px;
+    border-radius: 5px;
+}
+
+
+
+
+
+/* Media Queries for Small Devices */
+
+@media (max-width: 768px) {
+    .Modal_Dropdown, #companyname, #Lead_date, #reference {
+        width: 100%;
+        max-width: none;
+        height: auto; /* Ensure height adjusts automatically */
+    }
+
+    #Lead_First, #Lead_second, #Lead_Third, #Lead_Five {
+        flex-direction: column;
+        align-items: stretch; /* Ensure elements take full width */
+    }
+
+    #Lead_First div, #Lead_Third div, #Lead_Five div {
+        margin-bottom: 15px; /* Ensure spacing between form elements */
+    }
+
+    #Lead_Mobile{
+        margin: 10px 0px;
+    }
+
+    #Lead_Mobile input{
+        width: 100%;
+    }
+    
+    #reference_div{
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .Modal_Header {
+        font-size: 16px;
+        text-align: center; /* Center text in header */
+    }
+
+    .Modal_Dropdown, #companyname, #Lead_date, #reference {
+        height: 35px;
+        font-size: 14px; /* Adjust font size */
+    }
+
+    .Lead_Four_Input {
+        height: 35px;
+        font-size: 14px; /* Adjust font size */
+    }
+
+    #Lead_six textarea {
+        height: 60px;
+        font-size: 14px; /* Adjust font size */
+    }
+}
+
+
+

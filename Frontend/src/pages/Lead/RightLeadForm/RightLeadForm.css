@@ -1,0 +1,75 @@
+.Leadform {
+  background-color: white;
+  width: 100%;
+  padding: 20px 25px;
+  border-radius: 5px;
+}
+
+#Right_Lead_First,
+#Right_Lead_second,
+#Right_Lead_third,
+#Right_Lead_four {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  /* background-color: red; */
+}
+
+.Right_Lead_First_div {
+  /* background-color: red; */
+  width: 30%;
+  /* margin: auto; */
+}
+
+.Right_Lead_First_div .Modal_Dropdown {
+  width: 100%;
+}
+
+.Right_Lead_second_div {
+  width: 47%;
+  /* background-color: yellow; */
+  /* margin: auto; */
+}
+
+.Right_Lead_second_div #Lead_date {
+  width: 100%;
+}
+
+.react-international-phone-input {
+  background-attachment: red;
+  width: 100%;
+}
+
+.Right_Lead_third_div {
+  width: 47%;
+}
+
+.Right_Lead_four {
+  /* background-color: red; */
+  width: 47%;
+}
+
+.Right_Lead_four_input {
+  width: 100%;
+}
+
+#Right_Lead_four_rf {
+  border: 1px solid gray;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+#Right_Lead_five textarea {
+  resize: none;
+  width: 100%;
+  border: 1px solid gray;
+  padding: 5px;
+  height: 75px;
+  border-radius: 5px;
+}
+
+#Submit_btn{
+  display: flex;
+  justify-content: flex-end; /* Align button to the right */
+}

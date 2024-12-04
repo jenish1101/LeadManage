@@ -1,0 +1,79 @@
+.table {
+    width: 100%;
+  }
+  
+  .table-view-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 10px;
+    padding: 0px 15px;
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+  }
+  
+  .table-btn {
+    padding: 5px 15px;
+    background: #088008;
+    color: white;
+    border-radius: 10px;
+    margin: 5px 0; /* Add some margin for spacing on smaller screens */
+  }
+  
+  /* Styling the select box */
+  #allLabels {
+    width: 100%; /* Make it full width on smaller screens */
+    max-width: 300px; /* Limit the max width on larger screens */
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  /* Media query for small devices (e.g., mobile phones) */
+  @media (max-width: 640px) {
+    .table-view-menu {
+      flex-direction: column; /* Stack items vertically on small screens */
+      align-items: flex-start;
+    }
+  
+    .table-btn, #allLabels {
+      width: 250px; /* Full width for buttons and select box */
+      max-width: none; /* Remove max-width restriction */
+      margin: 5px 0; /* Ensure spacing between stacked items */
+    }
+  }
+
+  @media(max-width: 380px){
+    .table-btn, #allLabels {
+        width: 100%; /* Full width for buttons and select box */
+        max-width: none; /* Remove max-width restriction */
+        margin: 5px 0; /* Ensure spacing between stacked items */
+      }
+  }
+  
+  /* Media query for medium devices (e.g., tablets) */
+  @media (min-width: 641px) and (max-width: 1024px) {
+    .table-view-menu {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    #allLabels {
+      width: auto;
+      max-width: 200px;
+    }
+  }
+  
+  /* Media query for large devices (e.g., desktops) */
+  @media (min-width: 1025px) {
+    .table-view-menu {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    #allLabels {
+      width: 300px;
+    }
+  }
+  
